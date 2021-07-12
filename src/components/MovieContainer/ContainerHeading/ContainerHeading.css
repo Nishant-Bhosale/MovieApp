@@ -1,0 +1,15 @@
+.container-heading {
+	text-align: left;
+	padding: 0 1rem;
+	margin: 1rem 3rem;
+	color: white;
+	letter-spacing: 0.2rem;
+}
+
+@media (max-width: 700px) {
+	.container-heading {
+		color: white;
+		margin: 1rem 0;
+		font-size: 2rem;
+	}
+}

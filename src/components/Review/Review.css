@@ -1,0 +1,21 @@
+.review {
+	width: 90%;
+	height: auto;
+	margin: 1rem auto;
+	border: 2px solid #ccc;
+	box-shadow: 3px 4px 12px black;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.author-info {
+	width: 65%;
+}
+
+@media (max-width: 700px) {
+	.review {
+		flex-direction: column;
+	}
+}

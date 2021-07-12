@@ -1,0 +1,43 @@
+.actor-profile {
+	margin: 0 1rem;
+	border-radius: 13px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 310px;
+	width: 240px;
+	transition: all 0.3s ease-in-out;
+}
+
+.actor-profile__info {
+	background-color: rgb(36, 35, 35);
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+	width: 100%;
+}
+
+.actor-profile:hover {
+	transform: scale(1.05);
+}
+
+.actor-profile-img {
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 700px) {
+	.actor-profile {
+		width: 150px;
+		height: 210px;
+	}
+	.actor-profile-img {
+		width: 150px;
+		height: 210px;
+	}
+	.actor-profile__info {
+		display: none;
+	}
+}

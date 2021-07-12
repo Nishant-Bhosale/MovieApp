@@ -1,0 +1,15 @@
+.watch-later_list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	height: auto;
+	margin: 4rem auto;
+}
+
+@media (max-width: 640px) {
+	.watch-later_list {
+		width: 90%;
+	}
+}

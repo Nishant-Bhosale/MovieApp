@@ -1,0 +1,32 @@
+.search-container {
+	height: auto;
+	width: 100%;
+	background-color: rgb(104, 38, 143);
+	overflow-x: hidden;
+	/* margin-left: 3rem; */
+}
+
+.cont {
+	margin-top: 4rem;
+	margin-bottom: 0;
+
+	width: 100vw;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+}
+
+@media (max-width: 700px) {
+	.search-container {
+		margin: 0;
+	}
+	.cont {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 7rem;
+	}
+	.custom-link {
+		align-self: center;
+		justify-self: center;
+	}
+}

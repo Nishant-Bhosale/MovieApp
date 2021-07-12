@@ -1,0 +1,39 @@
+.btn-container {
+	text-align: left;
+	margin: 0 3.7rem;
+	margin-top: 1rem;
+	height: 2rem;
+}
+
+.btn {
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(95, 211, 182);
+	color: white;
+	padding: 0.7rem;
+	margin: 0 1rem;
+	width: 7.9rem;
+	font-size: 1.4rem;
+}
+
+.btn:hover {
+	color: rgb(95, 211, 182);
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:active {
+	outline: none;
+}
+
+@media (max-width: 700px) {
+	.btn {
+		display: inline-block;
+		margin: 0 0.3rem;
+		font-size: 1rem;
+	}
+	.btn-container {
+		display: flex;
+		height: 3rem;
+	}
+}

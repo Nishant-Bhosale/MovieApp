@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
+	text-align: center;
+	overflow-x: hidden;
+	height: auto;
+
+	background-color: rgb(104, 38, 143);
+	overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-background {
+	height: 60vh;
+	width: 90%;
+	margin: 4rem auto;
+	background: url("https://image.tmdb.org/t/p/w1920_and_h800_multi_faces/b0WmHGc8LHTdGCVzxRb3IBMur57.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: left;
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-background > h1 {
+	font-size: 3.5rem;
+	margin-left: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-background > h3 {
+	font-size: 2.7rem;
+	margin-left: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media (max-width: 700px) {
+	.main-background {
+		height: 45vh;
+	}
+	.main-background > h1 {
+		font-size: 2.5rem;
+		margin-left: 2rem;
+	}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	.main-background > h3 {
+		font-size: 1.5rem;
+		margin-left: 2rem;
+	}
 }

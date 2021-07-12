@@ -1,0 +1,22 @@
+.actor-profile-info {
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+
+	overflow: hidden;
+}
+
+.actor-profile-info > p {
+	max-height: 15rem;
+	max-width: 300px;
+}
+
+@media (max-width: 700px) {
+	.actor-profile-info {
+		width: 400px;
+		min-width: 350px;
+		align-items: center;
+	}
+}

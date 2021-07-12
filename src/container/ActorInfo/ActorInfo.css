@@ -1,0 +1,26 @@
+.container-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+	overflow-x: hidden;
+}
+
+.profile-container {
+	margin: 0 1rem;
+}
+
+.profile-actor-image {
+	width: 240px;
+	height: 360px;
+	border-radius: 13px;
+	box-shadow: 3px 7px 13px rgb(117, 116, 116);
+	min-width: 240px;
+}
+
+@media (max-width: 700px) {
+	.container-div {
+		flex-direction: column;
+		justify-content: center;
+	}
+}

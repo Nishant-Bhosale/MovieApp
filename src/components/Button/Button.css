@@ -1,0 +1,29 @@
+.add-button {
+	height: 2.7rem;
+	width: 2.7rem;
+	color: white;
+	border: none;
+	font-size: 3rem;
+	position: absolute;
+
+	right: 1.7rem;
+	z-index: 500;
+	bottom: 0rem;
+	background: transparent;
+	outline: none;
+}
+
+.add-button > span {
+	background-color: none;
+}
+
+.add-button:hover {
+	color: rgb(56, 191, 236);
+}
+
+@media (max-width: 700px) {
+	.add-button {
+		bottom: -3.3rem;
+		color: white;
+	}
+}

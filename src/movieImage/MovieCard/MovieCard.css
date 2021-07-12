@@ -1,0 +1,44 @@
+.image {
+	height: 300px;
+	width: 230px;
+	border-radius: 1rem;
+	box-sizing: border-box;
+}
+
+.card-container {
+	position: relative;
+	padding: 0 1.3rem;
+	transition: all 0.3s ease-in-out;
+	max-width: 270px;
+}
+
+.movie-info {
+	color: white;
+	bottom: 0;
+	width: 100%;
+	text-align: justify;
+	left: 3rem;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.card-container:hover {
+	transform: scale(1.05);
+}
+
+.release-date {
+	margin: 0 0;
+}
+
+@media (max-width: 700px) {
+	.card-container {
+		width: 150px;
+		align-self: center;
+		justify-self: center;
+		height: 210px;
+	}
+	.image {
+		width: 150px;
+		height: 210px;
+	}
+}

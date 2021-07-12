@@ -1,0 +1,26 @@
+.movie-card {
+	width: 90%;
+	height: 400px;
+	display: flex;
+	margin: 3rem auto;
+	align-items: center;
+	justify-content: flex-start;
+	overflow-x: scroll;
+	white-space: nowrap;
+	overflow-y: hidden;
+	background-color: rgb(65, 4, 88);
+	text-decoration: none;
+	border-radius: 15px;
+}
+
+.movie-card::-webkit-scrollbar {
+	display: none;
+}
+
+@media (max-width: 700px) {
+	.movie-card {
+		height: 300px;
+		justify-content: flex-start;
+		padding-bottom: 1rem;
+	}
+}

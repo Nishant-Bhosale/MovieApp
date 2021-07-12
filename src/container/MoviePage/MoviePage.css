@@ -1,0 +1,85 @@
+.movie-page__inner-container {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	left: 1rem;
+
+	z-index: 300;
+	margin-top: 4rem;
+}
+
+.movie-page__info {
+	text-align: right;
+	color: white;
+	width: 60%;
+	padding-right: 2rem;
+	min-width: 30%;
+	max-height: 10rem;
+}
+
+.poster_image-container {
+	min-width: 3rem;
+	height: 500px;
+	width: 250px;
+}
+
+.poster_image {
+	height: 75%;
+	width: 100%;
+	margin-top: 2rem;
+	border-radius: 15px;
+	border: 2px solid white;
+	box-shadow: 2px 3px 3px white;
+}
+
+.recommendations,
+.reviews-heading,
+.cast-heading {
+	font-size: 2rem;
+	margin-left: 4rem;
+}
+
+@media (max-width: 700px) {
+	.movie-page__background > img {
+		margin-top: 3rem;
+	}
+	.poster_image-container {
+		width: 90px;
+		height: auto;
+	}
+	.poster_image {
+		height: 75%;
+		margin-top: 0;
+	}
+	.movie-page__inner-container {
+		margin-left: 0;
+		justify-content: center;
+		height: auto;
+		width: 100%;
+	}
+	.poster_image-container > h1 {
+		font-size: 1rem;
+	}
+	.movie-page__info {
+		padding: 0;
+	}
+	.movie-page__info > h3 {
+		display: none;
+	}
+	.movie-page__info > h1 {
+		font-size: 1rem;
+	}
+	.recommendations,
+	.reviews-heading,
+	.cast-heading {
+		margin: 0.3rem 1rem;
+	}
+}
+
+@media (max-width: 417px) {
+	.poster_image {
+		display: none;
+	}
+}
